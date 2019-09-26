@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1>Axios Ajax - Post - Put</h1>
+    <button id="post-wall-e">Post Wall-E</button>
+    <ul id="characters-list"></ul> -->
+    
+    <h3 id="add-char"> Post a new character </h3>
+    <form id="character-form">
+        <div>
+            <label for="the-name-input"> Name: </label>
+            <input type="text" name="name" class="the-name">
+        </div>
+    
+        <div>
+            <label for="the-occupation-input"> Occupation: </label>
+            <input type="text" name="occupation" class="the-occupation">
+        </div>
+    
+        <div>
+            <label for="the-weapon-input"> Weapon: </label>
+            <input type="text" name="weapon" class="the-weapon">
+        </div>
+    
+        <button> Save </button>
+    </form>
+
+    <label for="get-character-to-update">Get chacter to update:</label>
+    <input type="text" id="get-character-to-update">
+    <button id="get-character-button">Get character</button>
+
+    <form id="update-character-form">
+        <div>
+            <label for="the-name-update"> Name: </label>
+            <input type="text" name="name" class="the-name-update">
+        </div>
+    
+        <div>
+            <label for="the-occupation-update"> Occupation: </label>
+            <input type="text" name="occupation" class="the-occupation-update">
+        </div>
+    
+        <div>
+            <label for="the-weapon-update"> Weapon: </label>
+            <input type="text" name="weapon" class="the-weapon-update">
+        </div>
+        <button> Save </button>
+    </form>
+
+    <ul id="characters-list"></ul>
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
